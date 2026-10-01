@@ -1,0 +1,194 @@
+/*THIS IS MY CSS TEMPLATE */
+
+/*
+
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+}
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+/*DELETE: header h1,{
+text-transform: uppercase;
+}
+Move the text-transform to h1, header below
+*/
+
+
+html, body {
+    font-size: 16px;
+}
+
+body {
+    background-color:#FFE8F3;
+    color: #black;
+}
+
+.resume {
+    max-width:800px;
+    margin: auto;
+    padding: 20px;
+}
+
+body {
+background-color:light pink;
+}
+
+/* Here I moved the text-transform thing here in this section
+and adjusted the margin and max-width
+*/
+
+h1,header{
+text-align:center;
+font-weight:auto ;
+text-transform: uppercase;
+margin: 20 px;
+max-width: 800 px;
+}
+
+/* DELETE THIS: h3{section class="experience"> 
+text-align:left;
+}
+*/
+
+/*Below I added the same margin and padding we used in the
+debate_example under header {}*/
+
+header {
+    font-family: Georgia, serif;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    max-width: 800px;
+
+}
+
+
+.profile {
+    font-family: "Times New Roman", serif;
+}
+
+.education {
+    font-family: "Times New Roman", serif;
+
+}
+
+.experience {
+    font-family: "Times New Roman", serif;
+}
+
+.skills {
+    font-family: "Times New Roman", serif;
+}
+
+.hobbies {
+    font-family: "Times New Roman", serif;
+}
+
+h1, h2,h3, p, li,  {
+    font-size: 16px;
+    font-weight: normal;
+  
+}
+
+/* I deleted the "margin-left" commands in rows 107-129*/
+
+.profile h2 {
+    color: blue;
+}
+
+.education h2 {
+    color: blue;
+}
+
+.experience h2 {
+    color: blue;
+}
+
+.fellowships h2 {
+    color: blue;
+}
+
+.coursework h2 {
+    color: blue;
+}
+
+.leadership h2 {
+    color: blue;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.education {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.experience {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.fellowships{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.coursework {
+    margin-top: 20px;
+}
+
+.leadership{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Here I made the margin: auto for ul section */
+
+ul {
+    margin: auto;
+}
+
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
